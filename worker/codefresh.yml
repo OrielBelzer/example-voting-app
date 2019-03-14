@@ -13,7 +13,7 @@ steps:
           - '${{BuildingDockerImage.imageId}}':
             - CF_QUALITY: true
             - Performance: true
-            - Latency: ".62" 
+            - Latency: ".63" 
             - Test_Coverage: "68%"
             - JIRA: "https://codefresh-io.atlassian.net/browse/MKTG-12"
   CheckClair:
